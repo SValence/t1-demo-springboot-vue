@@ -1,0 +1,44 @@
+{
+  "id": "3291357",
+  "name": "通用版综合管理系统",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "599914",
+      "name": "QQ",
+      "font_class": "qq2",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "10905628",
+      "name": "微信",
+      "font_class": "weixin1",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "900158",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e65f",
+      "unicode_decimal": 58975
+    },
+    {
+      "icon_id": "3979173",
+      "name": "淘宝",
+      "font_class": "taobao1",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "22908389",
+      "name": "品牌标识_抖音",
+      "font_class": "pinpaibiaoshi_douyin",
+      "unicode": "e659",
+      "unicode_decimal": 58969
+    }
+  ]
+}

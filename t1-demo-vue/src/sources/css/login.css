@@ -1,0 +1,210 @@
+.loginRoot, .bgImg, .elCon, .loginCon {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 750px;
+    min-width: 1200px;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.bgImg, .elCon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.el-main {
+    width: 100%;
+    min-height: 690px;
+    min-width: 1200px;
+
+    position: absolute;
+    top: 0;
+    bottom: 60px;
+}
+
+.loginCon {
+    min-height: 690px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginLayout {
+    width: 600px;
+    min-height: 640px;
+
+    position: absolute;
+    top: 50px;
+    bottom: 50px;
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
+    /*padding: 0 50px 0 50px;*/
+
+    background-color: #343434;
+    border-radius: 40px;
+}
+
+.logoImgLogin {
+    width: 240px;
+    height: 96px;
+    margin-top: 20px;
+}
+
+.sloganTitle {
+    /*background-color: #ff5a1d;*/
+    color: white;
+    margin: 40px 10px 0 10px;
+    padding: 10px;
+    border-radius: 30px;
+    /*font-weight: normal;*/
+    /*font-family: 华文行楷, sans-serif;*/
+    /*font-weight: bold;*/
+    font-family: YouYuan, sans-serif;
+    font-size: 25px;
+}
+
+.userCon {
+    margin-top: 40px;
+}
+
+.passCon {
+    margin-top: 30px;
+}
+
+.userCon, .passCon {
+    border: 1px solid #4d4d4d;
+    border-radius: 5px;
+}
+
+#username, #password {
+    height: 50px;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+#username:focus, #password:focus {
+    outline: none;
+}
+
+.doLoginCon {
+    margin-top: 20px;
+    height: 60px;
+}
+
+.el-row-col, .el-row-col-l, .el-row-col-r {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.el-row-col-r {
+    justify-content: right;
+}
+
+.forgetPass {
+    text-underline: none;
+    color: #bebebe;
+    float: left;
+    margin-left: 10px;
+    font-family: YouYuan, sans-serif;
+}
+
+.forgetPass:hover {
+    color: #ff5a1d;
+    cursor: pointer;
+}
+
+.loginBtn {
+    height: 60px;
+    background-color: #ff5a1d;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    font-family: YouYuan, sans-serif;
+    border: 0;
+    border-radius: 5px;
+}
+
+.loginBtn:hover {
+    cursor: pointer;
+    border: 1px #bebebe solid;
+    /*background-color: #df360e;*/
+}
+
+div.el-divider__text.is-center {
+    background-color: #343434;
+    color: white;
+    font-family: YouYuan, sans-serif;
+    font-size: 20px;
+}
+
+div.el-divider.el-divider--horizontal {
+    margin-top: 50px;
+}
+
+.otherLoginCon {
+    margin-top: 40px;
+}
+
+.otherLogin {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.otherLogin:hover {
+    color: #df5000;
+    cursor: pointer;
+}
+
+.el-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-width: 1200px;
+    height: 60px;
+    border-top: 2px white solid;
+}
+
+.footerLayout {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_record-text, .record-link {
+    color: white;
+}
+
+.record-link:hover {
+    color: black;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #bebebe;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #bebebe;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #bebebe;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #bebebe;
+}
