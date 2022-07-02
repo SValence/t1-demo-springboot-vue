@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.valence.vue</groupId>
     <artifactId>t1-demo-springboot-vue</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.224.19-Beta</version>
     <name>t1-demo-springboot-vue</name>
     <description>Demo project for Spring Boot</description>
     <properties>

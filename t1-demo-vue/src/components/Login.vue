@@ -67,8 +67,8 @@
                             <a class="record-link" href="http://beian.miit.gov.cn/" target="_blank">皖ICP备20001302号-1</a>\
                        ',
                 // src: require("../assets/bg_bank_card.png"),
-                src: "http://localhost:9000/picture/bg_login_arcu.png",
-                logoLoginSrc: "http://localhost:9000/picture/img_arcu_logo_horizontal_trans_white_font.png",
+                src: "/vue_ser_pic/picture/bg_login_arcu.png",
+                logoLoginSrc: "/vue_ser_pic/picture/img_arcu_logo_horizontal_trans_white_font.png",
                 // sloganTitle: "农 为 本, 商 有 道, 行 致 远",
                 sloganTitle: "涡阳农商行综合管理系统 Web",
                 username: "",
